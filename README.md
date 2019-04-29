@@ -3,9 +3,9 @@
 * Time series model to forecast demand per product per channel where demand is good. 
 * Mean, median for channel where there is no demand even at 75th percentile. 
 * Incorporate forecasted demand into GA routine lower limits
-* GA routine takes following parametes and optimizes inventory allocation such that revenue is maximized
+* GA routine takes following parametes per product and optimizes inventory allocation such that revenue is maximized
 
-  * Inventory in hand
+  * Inventory at hand
   * Channel 1 Minimum Discount
   * Channel 1 Maximum Discount
   * Channel 2 Minimum Discount
